@@ -19,7 +19,7 @@ setup(
     long_description=readme,
     author="Adam Geitgey",
     author_email='ageitgey@gmail.com',
-    url='https://github.com/ageitgey/face_recognition_models',
+    url='https://github.com/enoquelights/face_recognition_models',
     packages=[
         'face_recognition_models',
     ],
