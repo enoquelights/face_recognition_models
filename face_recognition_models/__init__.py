@@ -14,6 +14,9 @@ def pose_predictor_five_point_model_location():
 
 def face_recognition_model_location():
     return resource_filename(__name__, "models/dlib_face_recognition_resnet_model_v1.dat")
+    
+def face_recognition_densenet_model_location():
+    return resource_filename(__name__, "models/face_recognition_densenet_model_v1")
 
 def cnn_face_detector_model_location():
     return resource_filename(__name__, "models/mmod_human_face_detector.dat")
